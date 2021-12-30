@@ -1,5 +1,5 @@
 import importlib
-from config import default
+from ..config import default
 
 
 class Settings(object):
@@ -7,9 +7,9 @@ class Settings(object):
         # 获取全局变量中的配置信息
         for attr in dir(default):
             setattr(self, attr, getattr(default, attr))
-        setting_modules = ['config.setting', 'config.api']
+        setting_modules = ['..config.setting', '..config.api']
         for setting_module in setting_modules:
-            setting = importlib.import_module(setting_module)
+            setting = importlib.import_module(setting_module, package=__name__)
             for attr in dir(setting):
                 setattr(self, attr, getattr(setting, attr))
 

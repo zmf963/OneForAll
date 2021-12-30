@@ -1,7 +1,7 @@
 import json
 import time
 
-from common.query import Query
+from OneForAll.common.query import Query
 
 
 class Robtex(Query):

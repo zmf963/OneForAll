@@ -1,7 +1,7 @@
 import cdx_toolkit
 from tqdm import tqdm
 
-from common.crawl import Crawl
+from OneForAll.common.crawl import Crawl
 
 
 class CommonCrawl(Crawl):

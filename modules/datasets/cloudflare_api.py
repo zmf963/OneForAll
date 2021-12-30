@@ -1,6 +1,6 @@
-from config import settings
-from common.query import Query
-from config.log import logger
+from OneForAll.config import settings
+from OneForAll.common.query import Query
+from OneForAll.config.log import logger
 from time import sleep
 
 

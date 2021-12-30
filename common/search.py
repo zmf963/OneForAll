@@ -1,5 +1,5 @@
-from config import settings
-from common.module import Module
+from OneForAll.config import settings
+from OneForAll.common.module import Module
 
 
 class Search(Module):

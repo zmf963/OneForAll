@@ -13,13 +13,13 @@ from threading import Thread
 from queue import Queue
 
 import fire
-from common.tablib.tablib import Dataset
+from .common.tablib.tablib import Dataset
 from tqdm import tqdm
 
-from config.log import logger
-from config import settings
-from common import utils
-from common.module import Module
+from .config.log import logger
+from .config import settings
+from .common import utils
+from .common.module import Module
 
 
 def get_fingerprint():

@@ -1,4 +1,4 @@
-from common.lookup import Lookup
+from OneForAll.common.lookup import Lookup
 
 
 class QuerySPF(Lookup):

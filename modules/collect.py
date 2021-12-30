@@ -1,8 +1,8 @@
 import threading
 import importlib
 
-from config.log import logger
-from config import settings
+from ..config.log import logger
+from ..config import settings
 
 
 class Collect(object):
@@ -33,7 +33,10 @@ class Collect(object):
         """
         for module in self.modules:
             name = module.split('.')[-1]
-            import_object = importlib.import_module(module)
+            print(name)
+            print(module)
+            print(__name__)
+            import_object = importlib.import_module("OneForAll."+module)
             func = getattr(import_object, 'run')
             self.collect_funcs.append([func, name])
 

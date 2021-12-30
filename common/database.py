@@ -2,11 +2,11 @@
 SQLite database initialization and operation
 """
 
-from common import records
+from ..common import records
 
-from common.records import Connection
-from config.log import logger
-from config import settings
+from ..common.records import Connection
+from ..config.log import logger
+from ..config import settings
 
 
 class Database(object):

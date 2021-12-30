@@ -18,12 +18,12 @@ import tenacity
 from dns.exception import Timeout
 from dns.resolver import NXDOMAIN, YXDOMAIN, NoAnswer, NoNameservers
 
-import export
-from common import utils
-from config import settings
-from common.module import Module
-from modules import wildcard
-from config.log import logger
+from . import export
+from .common import utils
+from .config import settings
+from .common.module import Module
+from .modules import wildcard
+from .config.log import logger
 
 
 def gen_subdomains(expression, path):

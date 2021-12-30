@@ -4,8 +4,8 @@
 import socket
 import ssl
 
-from config.log import logger
-from common.check import Check
+from OneForAll.config.log import logger
+from OneForAll.common.check import Check
 
 
 class CertInfo(Check):

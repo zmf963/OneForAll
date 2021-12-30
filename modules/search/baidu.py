@@ -1,6 +1,6 @@
 import time
 from bs4 import BeautifulSoup
-from common.search import Search
+from OneForAll.common.search import Search
 
 
 class Baidu(Search):

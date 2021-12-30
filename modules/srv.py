@@ -5,9 +5,9 @@
 import queue
 import threading
 
-from common import utils
-from common.module import Module
-from config.setting import data_storage_dir
+from ..common import utils
+from ..common.module import Module
+from ..config.setting import data_storage_dir
 
 
 class BruteSRV(Module):

@@ -1,4 +1,4 @@
-from common.search import Search
+from OneForAll.common.search import Search
 
 
 class Sogou(Search):

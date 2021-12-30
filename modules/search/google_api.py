@@ -1,6 +1,6 @@
 import time
-from config import settings
-from common.search import Search
+from OneForAll.config import settings
+from OneForAll.common.search import Search
 
 
 class GoogleAPI(Search):

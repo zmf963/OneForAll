@@ -1,6 +1,6 @@
 import random
 import time
-from common.search import Search
+from OneForAll.common.search import Search
 
 
 class Google(Search):

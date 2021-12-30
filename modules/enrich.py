@@ -1,8 +1,8 @@
-from modules import iscdn
-from common import utils
-from common.database import Database
-from common.ipasn import IPAsnInfo
-from common.ipreg import IpRegData
+from ..modules import iscdn
+from ..common import utils
+from ..common.database import Database
+from ..common.ipasn import IPAsnInfo
+from ..common.ipreg import IpRegData
 
 
 def get_ips(info):

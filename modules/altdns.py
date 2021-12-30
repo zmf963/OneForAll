@@ -5,15 +5,15 @@ import re
 import time
 import itertools
 
-from config import settings
+from ..config import settings
 
-from modules import wildcard
-from common import utils
-from common import resolve
-from common import request
-from common.domain import Domain
-from common.module import Module
-from config.log import logger
+from ..modules import wildcard
+from ..common import utils
+from ..common import resolve
+from ..common import request
+from ..common.domain import Domain
+from ..common.module import Module
+from ..config.log import logger
 
 
 def split_domain(domain):

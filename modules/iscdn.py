@@ -1,10 +1,10 @@
 import json
 import ipaddress
 
-from config import settings
-from common import utils
-from common.database import Database
-from config.log import logger
+from ..config import settings
+from ..common import utils
+from ..common.database import Database
+from ..config.log import logger
 
 data_dir = settings.data_storage_dir
 

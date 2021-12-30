@@ -1,5 +1,5 @@
-from config import settings
-from common.query import Query
+from OneForAll.config import settings
+from OneForAll.common.query import Query
 
 
 class BinaryEdgeAPI(Query):

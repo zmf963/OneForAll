@@ -12,18 +12,18 @@ import fire
 from datetime import datetime
 
 
-import export
-from brute import Brute
-from common import utils, resolve, request
-from modules.collect import Collect
-from modules.srv import BruteSRV
-from modules.finder import Finder
-from modules.altdns import Altdns
-from modules.enrich import Enrich
-from modules import wildcard
-from config import settings
-from config.log import logger
-from takeover import Takeover
+from . import export
+from .brute import Brute
+from .common import utils, resolve, request
+from .modules.collect import Collect
+from .modules.srv import BruteSRV
+from .modules.finder import Finder
+from .modules.altdns import Altdns
+from .modules.enrich import Enrich
+from .modules import wildcard
+from .config import settings
+from .config.log import logger
+from .takeover import Takeover
 
 yellow = '\033[01;33m'
 white = '\033[01;37m'

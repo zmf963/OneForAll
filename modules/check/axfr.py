@@ -10,9 +10,9 @@ DNS域传送(DNS zone transfer)指的是一台备用域名服务器使用来自�
 import dns.resolver
 import dns.zone
 
-from common import utils
-from common.check import Check
-from config.log import logger
+from OneForAll.common import utils
+from OneForAll.common.check import Check
+from OneForAll.config.log import logger
 
 
 class AXFR(Check):

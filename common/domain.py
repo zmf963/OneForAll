@@ -1,6 +1,6 @@
 import re
-from common import tldextract
-from config import settings
+from ..common import tldextract
+from ..config import settings
 
 
 class Domain(object):

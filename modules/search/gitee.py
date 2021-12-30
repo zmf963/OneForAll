@@ -1,7 +1,7 @@
 import time
 from bs4 import BeautifulSoup
-from common.search import Search
-from config.log import logger
+from OneForAll.common.search import Search
+from OneForAll.config.log import logger
 
 
 class Gitee(Search):

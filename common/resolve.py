@@ -1,9 +1,9 @@
 import gc
 import json
 
-from config.log import logger
-from config import settings
-from common import utils
+from ..config.log import logger
+from ..config import settings
+from ..common import utils
 
 
 def filter_subdomain(data):

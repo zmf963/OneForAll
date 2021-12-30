@@ -1,4 +1,4 @@
-from common.module import Module
+from OneForAll.common.module import Module
 
 
 class Query(Module):
